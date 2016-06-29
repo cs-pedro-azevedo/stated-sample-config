@@ -16,4 +16,9 @@ E depois rodar o StatsD.
 make run_statsd
 ```
 
+Por último, suba o Graphite para consultar os dados para verificar os dados escritos no StatsD.
+```shell
+make run_graphite
+```
+
 Depois disso a aplicação já estará disponível em ** localhost:8125 **.
